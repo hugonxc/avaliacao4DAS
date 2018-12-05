@@ -1,0 +1,5 @@
+Questão 2
+
+Nesse comparativo entre Java RMI e o modelo apresentado por Spagnoli e Becker (2003) podemos notar que os Stub do JavaRMI são os componentes de software, pois nos Stub ficam encapsulados as funcões as quais serão oferecidas como serviço para a aplicação de software.
+Já o Skeleton, que é outro componente do JavaRMI, podem ser entendido como o framework de componentes. Os Skeletons funcionam basicamente recebem as chamadas dos Stub e executam no recursos, ou seja, não tem a implementação diretamente do que será executado, mas sabe gerenciar recursos que o Stub (componente) irá utilizar.
+Sendo assim, a própria construção dos conceitos do JavaRMI pode ser considerada como o modelo de componentes, poruqe estabelece as regras e os mecanismos que necessários para que os componentes (Stubs) se comuniquem e no barramento (Registro) seguindo o que o framework (Skeleton) dispõe.
