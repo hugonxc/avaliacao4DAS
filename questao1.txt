@@ -1,0 +1,22 @@
+Questão 1
+
+a)
+    - Componente de software
+        Um componente de software é unidade de software independente que engloba, dentro de si, a sua própria implementação e suas definições de projeto (documentação, manual de reuso). Sendo assim pode ser utilizada por terceiros para ser parte de composições. Também pode ser entendido como uma abstração depois de funções, módulos e classes.
+
+    - Modelo de componentes
+        O modelo de componentes é um elemento da arquitetura que define padrões de implementação, documentação, implantação e com isso poder garantir que os componentes sejam capazes de comunicar-se entre si.
+
+    - Framework de componentes
+        O Framework de componentes é implementação de serviços que fornecem aparato para que os modelos de componentes possam ser criados, coordenados e possam atuar na melhor gestão.
+
+b)
+    - Componente de software
+        Para o DBC os componentes tem como função fornecer funções que outros componenetes podem utilizar, ou seja, é a parte "útil". É importante para o DBC que os componentes tenham aderência ao escopo que estão inseridos.
+
+    - Modelo de componentes
+        Para o DBC os modelos de componentes devem assegurar que os componentes são aderentes ao modelo arquitetural, sendo assim um "validador" de quais componentes participaram do software.
+
+    - Framework de componentes
+        Para o DBC os framework de componentes deve seguir o modelo de componente, sendo uma ferramenta que interliga os componentes respeitando as definições estabelecidas.
+        
